@@ -1,0 +1,255 @@
+/* Reset CSS (JANGAN DIHAPUS) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: "Lucida Grande";
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1170px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  padding: 180px 0 100px 0;
+  background-color:white;
+  background-size: cover;
+  color: black;
+  text-align: center;
+}
+
+.top-wrapper h1 {
+  opacity: 0.7;
+  font-size: 45px;
+ 
+  margin-bottom: 10px;
+}
+
+.images1 
+{
+height: 700px;
+background-image: url(https://prog-8.com/assets/packs/dist/images/first_view_id-664848d9bd03fcd5ff10..webp);
+background-size: cover;
+}
+
+.mulai
+{
+  padding: 100px; 
+  letter-spacing: 5px;
+  text-align: center;
+  color: #5f5d60;
+}
+
+.images2 
+{
+height: 700px;
+background-image: url(https://prog-8.com/assets/packs/dist/images/slide_image_id-a5831c43470d2ec937ea..webp);
+background-size: cover;
+}
+
+.slide h1, .belajar h1, .pembelajaran h1
+{
+  padding: 20px 200px; 
+  text-align: center;
+  color: black;
+}
+
+.slide p, .belajar p, .pembelajaran p
+{
+  padding: 30px 300px; 
+  text-align: center;
+  color: lightsteelblue;
+}
+
+.images3 
+{
+height: 700px;
+background-image: url(https://prog-8.com/assets/packs/dist/images/path_image_id-15dd5c912d82b0703d23..webp);
+background-size: cover;
+}
+
+.images4 
+{
+height: 700px;
+background-image: url(https://prog-8.com/assets/packs/dist/images/path_image_id-15dd5c912d82b0703d23..webp);
+background-size: cover;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
+}
+
+.signup {
+  background-color: #239b76;
+}
+
+.facebook {
+  background-color: #3b5998;
+  margin-right: 10px;
+}
+
+.twitter {
+  background-color: #55acee;
+}
+
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 5px;
+}
+
+header {
+  height: 65px;
+  width: 100%;
+  background-color: white;
+  /* Ubah position ke fixed, dan top ke 0 */
+position: fixed;
+top: 0;
+  
+  /* Ubah z-index ke 10 */
+  z-index: 10;
+}
+
+.logo {
+  width: 124px;
+  margin-top: 20px;
+}
+
+.header-left {
+  float: left;
+}
+
+.header-right {
+  float: right;
+  background-color: rgba(255, 255, 255, 0.3);
+  transition: all 0.5s;
+
+}
+
+.header-right:hover {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height: 65px;
+  padding: 0 25px;
+  color:black;
+  display: block;
+}
+
+.lesson-wrapper {
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: mediumblue;
+  text-align: center;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: white;
+}
+
+.heading h2 {
+  font-weight: normal;
+}
+.lessons {
+ 
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+
+.lesson {
+  float: left;
+  width: 20%;
+  background-color:  white;
+  border-radius: 10px;
+  
+}
+
+.lesson-icon {
+  position: relative;
+}
+
+.lesson-icon p {
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.txt-contents {
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+
+.heading h3 {
+  font-weight: normal;
+}
+
+.message-wrapper {
+  border-bottom: 1px solid #eee;
+  padding-bottom: 80px;
+  text-align: center;
+}
+
+.top {
+  padding: 15px 40px;
+  background-color:cyan;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.message:active {
+  position: relative;
+  top: 7px;
+  box-shadow: none;
+}
+
+footer img {
+  width: 125px;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding: 30px 0;
+}
