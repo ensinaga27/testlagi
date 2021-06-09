@@ -169,8 +169,10 @@ top: 0;
 
 .daftar
 {
-  background color:cyan;
+
   color:white;
+    background-color:cyan;
+  cursor: pointer;
 }
 
 .header-right:hover {
