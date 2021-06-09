@@ -15,9 +15,10 @@ a {
   text-decoration: none;
 }
 
-.header li 
+.header-right li 
 {
    list-style : none;
+  float: left;
 }
 
 .container {
