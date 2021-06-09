@@ -1,6 +1,6 @@
 /* Reset CSS (JANGAN DIHAPUS) Iya*/
 html, body,
-ul, ol, li,
+ul, ol, 
 h1, h2, h3, h4, h5, h6, p, div {
   margin: 0;
   padding: 0;
@@ -13,6 +13,13 @@ body {
 
 a {
   text-decoration: none;
+}
+
+li 
+{
+   margin: 0;
+  padding: 0;
+  list-style : none;
 }
 
 .container {
