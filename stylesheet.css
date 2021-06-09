@@ -272,3 +272,9 @@ footer p {
 footer {
   padding: 30px 0;
 }
+
+.containerfooter
+{
+  float : left;
+}
+
