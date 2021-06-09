@@ -161,7 +161,10 @@ top: 0;
 {
    list-style : none;
   float: left;
-  background-color : yellow ;
+ padding: 0 25px;
+  color:black;
+  display: block;
+    line-height: 65px;
 }
 
 .header-right:hover {
