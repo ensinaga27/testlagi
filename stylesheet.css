@@ -239,7 +239,7 @@ top: 0;
   text-align: center;
 }
 
-.top {
+.topdaftar, .topmulai {
   padding: 15px 40px;
   background-color:cyan;
   cursor: pointer;
