@@ -167,11 +167,10 @@ top: 0;
     line-height: 65px;
 }
 
-li .daftar
+.header-right ul li .daftar
 {
-
   color:white;
-    background-color:cyan;
+  background-color:cyan;
   cursor: pointer;
 }
 
