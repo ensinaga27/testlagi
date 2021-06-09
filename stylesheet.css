@@ -172,6 +172,8 @@ top: 0;
   color:white;
   background-color:cyan;
   cursor: pointer;
+  line-height: 65px;
+  padding: 0 25px;
 }
 
 .header-right:hover {
